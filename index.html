@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>End Sem Countdown</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="card">
+    <p class="eyebrow">End Semester Exams</p>
+    <h1>Starts 1 December 2026</h1>
+
+    <div class="timer" id="timer" aria-live="polite">
+      <div class="unit"><span id="days">00</span><label>Days</label></div>
+      <div class="unit"><span id="hours">00</span><label>Hours</label></div>
+      <div class="unit"><span id="minutes">00</span><label>Minutes</label></div>
+      <div class="unit"><span id="seconds">00</span><label>Seconds</label></div>
+    </div>
+
+    <div class="progress-wrap">
+      <div class="progress-label">
+        <span>Prep time used</span>
+        <span id="percent">0%</span>
+      </div>
+      <div class="progress"><div class="bar" id="bar"></div></div>
+    </div>
+
+    <p class="message" id="message"></p>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
